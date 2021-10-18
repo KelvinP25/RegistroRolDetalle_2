@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RolDetalle_II.UI.Registro"
         mc:Ignorable="d"
-        Title="rRol" Height="350" Width="500">
+        Title="rRol" Height="390" Width="500">
     <Grid>
         <StackPanel Orientation="Horizontal">
             <StackPanel Margin="10">
@@ -14,7 +14,7 @@
                     <Label Content="Rol Id: "/>
                     <TextBox x:Name="RolIdTextBox" Height="20" Width="150" Text="{Binding RolId}" Margin="32,0,0,0"/>
                     <Button x:Name="BuscarButton" Margin="5,0" Height="20" Width="30" Click="BuscarButton_Click">
-
+                        <Image Source="/Resources/search_locate_find_6278.png" />
                     </Button>
 
                     <StackPanel Margin="90, 7">
@@ -38,11 +38,15 @@
                         <StackPanel Orientation="Horizontal" Margin="0,10" HorizontalAlignment="Center">
                             <Button x:Name="AgregarFilaButton" Margin="10,0" Click="AgregarFilaButton_Click" Width="100">
                                 <StackPanel Orientation="Horizontal">
+                                    
+                                    <Image Source="/Resources/1904677-add-addition-calculate-charge-create-new-plus_122527.png" Height="20"/>
                                     <Label Content="Agregar fila"/>
                                 </StackPanel>
                             </Button>
                             <Button x:Name="RemoverFilaButton" Margin="10,0" Click="RemoverFilaButton_Click" Width="100">
                                 <StackPanel Orientation="Horizontal">
+                                    <Image Source="/Resources/1904654-cancel-close-cross-delete-reject-remove-stop_122504.png" Height="20"/>
+
                                     <Label Content="Eliminar fila"/>
                                 </StackPanel>
                             </Button>
@@ -68,18 +72,21 @@
 
                     <Button x:Name="NuevoButton" Margin="5,0" Click="NuevoButton_Click">
                         <StackPanel Orientation="Horizontal">
+                            <Image Source="/Resources/1486485588-add-create-new-math-sign-cross-plus_81186.png" Height="20"/>
 
                             <Label Content="Nuevo" />
                         </StackPanel>
                     </Button>
                     <Button x:Name="GuardarButton"   Margin="5,0" Click="GuardarButton_Click">
                         <StackPanel Orientation="Horizontal">
+                            <Image Source="/Resources/savedisk_floppydisk_guardar_1543.png" Height="20"/>
 
                             <Label Content="Guardar" />
                         </StackPanel>
                     </Button>
                     <Button x:Name="EliminarButton"  Margin="5,0" Click="EliminarButton_Click">
                         <StackPanel Orientation="Horizontal">
+                            <Image Source="/Resources/delete_40623.png" Height="20" />
 
                             <Label Content="Eliminar" />
                         </StackPanel>
